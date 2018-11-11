@@ -1,23 +1,31 @@
 Country or Area,Poorest 20% Adult support for learning,Male Adult support for learning,Total Adult support for learning,Richest 20% Adult support for learning,Female Adult support for learning
 Afghanistan,72,74,73,80,73
 Albania,68,85,86,96,87
+Angola,57,63,63,77,63
 Bangladesh,42,61,61,85,60
 Belarus,95,97,97,98,96
 Belize,73,88,86,94,83
+Benin,57,63,63,77,63
 Bhutan,40,52,54,73,57
 Bosnia and Herzegovina,74,83,83,90,83
 Burkina Faso,12,14,14,26,14
 Burundi,32,35,34,38,34
 Cameroon,57,57,58,69,59
+Cape Verde,57,63,63,77,63
 Central African Republic,70,74,74,78,74
 Chad,64,69,70,71,70
+Congo,57,63,63,77,63
 Côte d'Ivoire,55,50,50,57,51
 Democratic People's Republic of Korea,0,88,91,0,93
 Democratic Republic of the Congo,62,61,61,76,62
 Djibouti,0,36,36,0,35
+Equatorial Guinea,57,63,63,77,63
+Gabon,57,63,63,77,63
 Gambia,50,49,48,56,47
 Georgia,85,93,93,99,93
 Ghana,23,38,40,78,42
+Guinea,57,63,63,77,63
+Guinea-Bissau,57,63,63,77,63
 Guyana,77,88,89,99,89
 Iraq,0,59,58,0,57
 Jamaica,0,95,94,0,93
@@ -25,6 +33,7 @@ Kazakhstan,84,92,92,96,91
 Kyrgyzstan,86,90,88,99,85
 Lao People's Democratic Republic,20,33,33,59,34
 Lebanon,0,58,56,0,54
+Liberia,57,63,63,77,63
 Mali,28,27,29,44,30
 Mauritania,39,48,48,64,47
 Mongolia,44,56,59,73,62
@@ -32,7 +41,11 @@ Montenegro,88,96,97,100,98
 Morocco,35,47,48,68,49
 Mozambique,48,45,47,50,48
 Myanmar,42,58,58,76,58
+Niger,57,63,63,77,63
 Nigeria,68,78,78,91,78
+Saint Helena,57,63,63,77,63
+Sao Tome and Principe,57,63,63,77,63
+Senegal,57,63,63,77,63
 Serbia,84,96,95,98,95
 Sierra Leone,45,53,54,79,55
 Somalia,76,80,79,85,79
@@ -46,5 +59,4 @@ Togo,55,61,62,68,63
 Trinidad and Tobago,96,98,98,100,98
 Uzbekistan,83,91,91,95,90
 Viet Nam,63,74,77,94,80
-Western and Central Africa,57,63,63,77,63
 Yemen,16,34,33,56,32

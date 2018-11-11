@@ -2,10 +2,13 @@ Country or Area,Male Net attendance ratio in secondary education,Female Net atte
 Afghanistan,18,6
 Albania,84,82
 Algeria,57,65
+American Samoa,61,63
 Angola,21,17
 Armenia,93,95
+Australia,61,63
 Azerbaijan,83,82
 Bahrain,77,85
+Bangladesh,55,46
 Belarus,95,97
 Belize,58,60
 Benin,34,23
@@ -14,57 +17,73 @@ Bolivia (Plurinational State of),78,75
 Bosnia and Herzegovina,89,89
 Botswana,36,44
 Brazil,74,80
+British Indian Ocean Territory,31,29
+Brunei Darussalam,61,63
 Burkina Faso,17,15
 Burundi,7,7
 Cambodia,45,44
 Cameroon,39,37
+Cape Verde,40,36
 Central African Republic,12,9
 Chad,20,12
+China,61,63
+Christmas Island,61,63
+Cocos (Keeling) Islands,61,63
 Colombia,73,79
 Comoros,10,11
 Congo,39,40
+Cook Islands,61,63
 Costa Rica,59,65
 Côte d'Ivoire,32,22
 Democratic People's Republic of Korea,98,98
 Democratic Republic of the Congo,35,28
 Djibouti,45,37
 Dominican Republic,56,68
-East Asia and Pacific,61,63
-Eastern and Southern Africa,23,23
 Ecuador,71,73
 Egypt,70,70
 Equatorial Guinea,23,22
 Eritrea,23,21
 Ethiopia,16,16
+Fiji,61,63
+French Polynesia,61,63
+French Southern Territories,31,29
 Gabon,34,36
 Gambia,34,34
 Georgia,85,88
 Ghana,40,44
+Guam,61,63
 Guatemala,23,24
 Guinea,27,17
 Guinea-Bissau,27,20
 Guyana,70,79
 Haiti,18,21
+Heard Island and McDonald Islands,61,63
 Honduras,35,43
 India,59,49
 Indonesia,57,59
+Iran (Islamic Republic of),55,46
 Iraq,46,34
 Jamaica,89,93
+Japan,61,63
 Jordan,85,89
 Kazakhstan,95,95
 Kenya,40,42
 Kiribati,55,63
 Kyrgyzstan,88,91
 Lao People's Democratic Republic,39,32
-Least Developed Countries/Territories,27,24
 Lebanon,77,85
 Lesotho,26,40
 Liberia,14,14
 Madagascar,27,28
 Malawi,19,20
+Malaysia,61,63
 Maldives,52,63
 Mali,38,24
+Marshall Islands,61,63
 Mauritania,21,17
+Mauritius,31,29
+Mayotte,31,29
+Micronesia (Federated States of),61,63
 Mongolia,91,95
 Montenegro,90,92
 Morocco,39,36
@@ -73,26 +92,38 @@ Myanmar,52,53
 Namibia,47,62
 Nauru,52,69
 Nepal,46,38
+New Caledonia,61,63
+New Zealand,61,63
 Nicaragua,35,47
 Niger,13,8
 Nigeria,45,43
+Niue,61,63
+Norfolk Island,61,63
+Northern Mariana Islands,61,63
 Pakistan,35,29
+Palau,61,63
+Papua New Guinea,61,63
 Paraguay,81,80
 Peru,81,82
 Philippines,55,70
+Pitcairn,61,63
+Republic of Korea,61,63
 Republic of Moldova,82,85
 Rwanda,15,16
+Réunion,31,29
+Saint Helena,40,36
 Samoa,51,70
 Sao Tome and Principe,30,31
 Senegal,35,32
 Serbia,88,90
+Seychelles,31,29
 Sierra Leone,40,33
+Singapore,61,63
 Solomon Islands,29,30
 Somalia,12,8
 South Africa,41,48
-South Asia,55,46
 South Sudan,8,4
-Sub-Saharan Africa,31,29
+Sri Lanka,55,46
 Sudan,33,30
 Suriname,56,67
 Swaziland,42,52
@@ -102,18 +133,20 @@ Thailand,77,83
 The former Yugoslav Republic of Macedonia,84,81
 Timor-Leste,43,48
 Togo,51,40
+Tokelau,61,63
+Tonga,61,63
 Trinidad and Tobago,84,90
 Turkmenistan,84,84
 Tuvalu,35,47
 Uganda,17,17
 Ukraine,85,85
 United Republic of Tanzania,26,24
+United States Minor Outlying Islands,61,63
 Uzbekistan,91,90
 Vanuatu,38,36
 Venezuela (Bolivarian Republic of),30,43
 Viet Nam,78,84
-Western and Central Africa,40,36
-World,49,45
+Wallis and Futuna Islands,61,63
 Yemen,49,27
 Zambia,38,36
 Zimbabwe,48,49
