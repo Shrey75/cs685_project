@@ -6,9 +6,12 @@ Andorra,101.0
 Angola,73.0
 Antigua and Barbuda,102.0
 Argentina,101.0
+Armenia,98.625
+Australia,97.66666666666667
 Austria,103.0
 Azerbaijan,102.0
 Bahamas,96.0
+Bahrain,98.625
 Bangladesh,114.0
 Barbados,102.0
 Belarus,101.0
@@ -26,24 +29,30 @@ Burkina Faso,109.0
 Burundi,118.0
 Cambodia,102.0
 Cameroon,98.0
+Canada,96.0
 Cape Verde,100.0
 Central African Republic,90.0
 Chad,96.0
 Chile,102.0
+China,101.33333333333333
 Colombia,101.0
 Comoros,101.0
 Congo,100.0
+Cook Islands,97.66666666666667
 Costa Rica,103.0
 Croatia,101.0
 Cuba,102.0
+Cyprus,98.625
 Czech Republic,100.0
 Côte d'Ivoire,96.0
+Democratic People's Republic of Korea,101.33333333333333
 Democratic Republic of the Congo,88.0
 Denmark,100.0
 Djibouti,101.0
 Dominica,105.0
 Dominican Republic,102.0
 Ecuador,102.0
+Egypt,100.75
 El Salvador,101.0
 Equatorial Guinea,108.0
 Eritrea,94.0
@@ -67,12 +76,16 @@ Haiti,102.0
 Honduras,102.0
 Hungary,100.0
 Iceland,101.0
+India,101.5
+Indonesia,103.0
 Iran (Islamic Republic of),100.0
+Iraq,98.625
 Ireland,101.0
 Israel,98.0
 Italy,100.0
 Jamaica,102.0
 Japan,100.0
+Jordan,98.625
 Kazakhstan,100.0
 Kenya,101.0
 Kiribati,102.0
@@ -83,12 +96,14 @@ Latvia,100.0
 Lebanon,103.0
 Lesotho,124.0
 Liberia,100.0
+Libya,100.75
 Liechtenstein,96.0
 Lithuania,100.0
 Luxembourg,101.0
 Madagascar,105.0
 Malawi,103.0
 Malaysia,100.0
+Maldives,101.5
 Mali,95.0
 Malta,91.0
 Marshall Islands,91.0
@@ -102,19 +117,24 @@ Morocco,100.0
 Mozambique,94.0
 Myanmar,107.0
 Namibia,107.0
+Nauru,97.66666666666667
 Nepal,102.0
 Netherlands,101.0
+New Zealand,97.66666666666667
 Nicaragua,102.0
 Niger,94.0
 Nigeria,107.0
 Norway,100.0
+Oman,98.625
 Pakistan,92.0
 Panama,100.0
+Papua New Guinea,97.66666666666667
 Paraguay,106.0
 Peru,101.0
 Philippines,111.0
 Poland,100.0
 Portugal,101.0
+Qatar,98.625
 Republic of Korea,100.0
 Republic of Moldova,104.0
 Romania,100.0
@@ -123,8 +143,10 @@ Rwanda,101.0
 Saint Kitts and Nevis,90.0
 Saint Lucia,97.0
 Saint Vincent and the Grenadines,102.0
+Samoa,97.66666666666667
 San Marino,101.0
 Sao Tome and Principe,121.0
+Saudi Arabia,98.625
 Senegal,105.0
 Serbia,100.0
 Seychelles,101.0
@@ -137,6 +159,8 @@ Somalia,101.0
 South Africa,101.0
 South Sudan,101.0
 Spain,101.0
+Sri Lanka,101.5
+State of Palestine,98.625
 Sudan,102.0
 Suriname,122.0
 Swaziland,107.0
@@ -144,9 +168,11 @@ Sweden,100.0
 Switzerland,101.0
 Syrian Arab Republic,101.0
 Tajikistan,101.0
+Thailand,103.0
 The former Yugoslav Republic of Macedonia,101.0
 Timor-Leste,111.0
 Togo,123.0
+Tonga,97.66666666666667
 Trinidad and Tobago,106.0
 Tunisia,102.0
 Turkey,103.0
@@ -154,6 +180,7 @@ Turkmenistan,101.0
 Tuvalu,102.0
 Uganda,101.0
 Ukraine,101.0
+United Arab Emirates,98.625
 United Kingdom,101.0
 United Republic of Tanzania,113.0
 United States,89.0
@@ -161,6 +188,7 @@ Uruguay,104.0
 Uzbekistan,101.0
 Vanuatu,94.0
 Venezuela (Bolivarian Republic of),105.0
+Viet Nam,103.0
 Yemen,102.0
 Zambia,95.0
 Zimbabwe,101.0

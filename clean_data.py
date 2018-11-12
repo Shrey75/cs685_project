@@ -5,9 +5,19 @@ import pickle as pkl
 import csv
 files = os.listdir("newdata/education")
 
-['Region Name' 'Sub-region Name' 'Intermediate Region Name'
- 'Country or Area' 'Least Developed Countries/Territories'
- 'Developed / Developing Countries' ]
+
+countries_in_edu = []
+for file in files:
+	if file == '.DS_Store':
+		continue
+	df = pd.read_csv("newdata/education/"+file,encoding = 'utf-8')
+	cols = df.columns.values
+	rows = list(set(df[cols[0]].values))
+	countries_in_edu = countries_in_edu +rows
+countries_in_edu = list(set(countries_in_edu))
+
+
+
 
 countries = []
 cunt2id = {}
@@ -32,7 +42,8 @@ for j,i in enumerate(df1[cols[3]].values):
 		i = 'United Kingdom'
 	if i == u"Côte d’Ivoire":
 		i = "C\xc3\xb4te d'Ivoire".decode('utf-8')
-	
+	if i not in countries_in_edu:
+		continue
 	countries.append(i)
 	cunt2id[i]=j
 	if df1.iloc[j,1] not in regions:
