@@ -2,18 +2,18 @@ Country or Area,Male Net attendance ratio in secondary education,Female Net atte
 Afghanistan,18,6
 Albania,84,82
 Algeria,57,65
-Andorra,42.0,43.2
+Andorra,87.0,86.8
 Angola,21,17
-Antigua and Barbuda,43.75,42.5
-Argentina,54.22222222222222,56.666666666666664
+Antigua and Barbuda,61.75,68.0
+Argentina,68.22222222222223,73.11111111111111
 Armenia,93,95
 Australia,61,63
 Austria,0.0,0.0
 Azerbaijan,83,82
-Bahamas,43.75,42.5
+Bahamas,61.75,68.0
 Bahrain,77,85
 Bangladesh,55,46
-Barbados,43.75,42.5
+Barbados,61.75,68.0
 Belarus,95,97
 Belgium,0.0,0.0
 Belize,58,60
@@ -24,7 +24,7 @@ Bosnia and Herzegovina,89,89
 Botswana,36,44
 Brazil,74,80
 Brunei Darussalam,61,63
-Bulgaria,48.333333333333336,46.0
+Bulgaria,87.33333333333333,89.0
 Burkina Faso,17,15
 Burundi,7,7
 Cambodia,45,44
@@ -33,27 +33,27 @@ Canada,0.0,0.0
 Cape Verde,40,36
 Central African Republic,12,9
 Chad,20,12
-Chile,54.22222222222222,56.666666666666664
+Chile,68.22222222222223,73.11111111111111
 China,61,63
 Colombia,73,79
 Comoros,10,11
 Congo,39,40
 Cook Islands,61,63
 Costa Rica,59,65
-Croatia,42.0,43.2
-Cuba,43.75,42.5
-Cyprus,37.55555555555556,38.666666666666664
-Czech Republic,48.333333333333336,46.0
+Croatia,87.0,86.8
+Cuba,61.75,68.0
+Cyprus,73.11111111111111,72.0
+Czech Republic,87.33333333333333,89.0
 Côte d'Ivoire,32,22
 Democratic People's Republic of Korea,98,98
 Democratic Republic of the Congo,35,28
 Denmark,0.0,0.0
 Djibouti,45,37
-Dominica,43.75,42.5
+Dominica,61.75,68.0
 Dominican Republic,56,68
 Ecuador,71,73
 Egypt,70,70
-El Salvador,61.0,61.8
+El Salvador,42.0,47.8
 Equatorial Guinea,23,22
 Eritrea,23,21
 Estonia,0.0,0.0
@@ -66,37 +66,37 @@ Gambia,34,34
 Georgia,85,88
 Germany,0.0,0.0
 Ghana,40,44
-Greece,42.0,43.2
-Grenada,43.75,42.5
+Greece,87.0,86.8
+Grenada,61.75,68.0
 Guatemala,23,24
 Guinea,27,17
 Guinea-Bissau,27,20
 Guyana,70,79
 Haiti,18,21
 Honduras,35,43
-Hungary,48.333333333333336,46.0
+Hungary,87.33333333333333,89.0
 Iceland,0.0,0.0
 India,59,49
 Indonesia,57,59
 Iran (Islamic Republic of),55,46
 Iraq,46,34
 Ireland,0.0,0.0
-Israel,37.55555555555556,38.666666666666664
-Italy,42.0,43.2
+Israel,73.11111111111111,72.0
+Italy,87.0,86.8
 Jamaica,89,93
 Japan,61,63
 Jordan,85,89
 Kazakhstan,95,95
 Kenya,40,42
 Kiribati,55,63
-Kuwait,37.55555555555556,38.666666666666664
+Kuwait,73.11111111111111,72.0
 Kyrgyzstan,88,91
 Lao People's Democratic Republic,39,32
 Latvia,0.0,0.0
 Lebanon,77,85
 Lesotho,26,40
 Liberia,14,14
-Libya,50.25,49.75
+Libya,49.75,50.25
 Liechtenstein,0.0,0.0
 Lithuania,0.0,0.0
 Luxembourg,0.0,0.0
@@ -105,11 +105,11 @@ Malawi,19,20
 Malaysia,61,63
 Maldives,52,63
 Mali,38,24
-Malta,42.0,43.2
+Malta,87.0,86.8
 Marshall Islands,61,63
 Mauritania,21,17
 Mauritius,31,29
-Mexico,61.0,61.8
+Mexico,42.0,47.8
 Monaco,0.0,0.0
 Mongolia,91,95
 Montenegro,90,92
@@ -125,42 +125,42 @@ Nicaragua,35,47
 Niger,13,8
 Nigeria,45,43
 Norway,0.0,0.0
-Oman,37.55555555555556,38.666666666666664
+Oman,73.11111111111111,72.0
 Pakistan,35,29
-Panama,61.0,61.8
+Panama,42.0,47.8
 Papua New Guinea,61,63
 Paraguay,81,80
 Peru,81,82
 Philippines,55,70
-Poland,48.333333333333336,46.0
-Portugal,42.0,43.2
-Qatar,37.55555555555556,38.666666666666664
+Poland,87.33333333333333,89.0
+Portugal,87.0,86.8
+Qatar,73.11111111111111,72.0
 Republic of Korea,61,63
 Republic of Moldova,82,85
-Romania,48.333333333333336,46.0
-Russian Federation,48.333333333333336,46.0
+Romania,87.33333333333333,89.0
+Russian Federation,87.33333333333333,89.0
 Rwanda,15,16
-Saint Kitts and Nevis,43.75,42.5
-Saint Lucia,43.75,42.5
-Saint Vincent and the Grenadines,43.75,42.5
+Saint Kitts and Nevis,61.75,68.0
+Saint Lucia,61.75,68.0
+Saint Vincent and the Grenadines,61.75,68.0
 Samoa,51,70
-San Marino,42.0,43.2
+San Marino,87.0,86.8
 Sao Tome and Principe,30,31
-Saudi Arabia,37.55555555555556,38.666666666666664
+Saudi Arabia,73.11111111111111,72.0
 Senegal,35,32
 Serbia,88,90
 Seychelles,31,29
 Sierra Leone,40,33
 Singapore,61,63
-Slovakia,48.333333333333336,46.0
-Slovenia,42.0,43.2
+Slovakia,87.33333333333333,89.0
+Slovenia,87.0,86.8
 Solomon Islands,29,30
 Somalia,12,8
 South Africa,41,48
 South Sudan,8,4
-Spain,42.0,43.2
+Spain,87.0,86.8
 Sri Lanka,55,46
-State of Palestine,37.55555555555556,38.666666666666664
+State of Palestine,73.11111111111111,72.0
 Sudan,33,30
 Suriname,56,67
 Swaziland,42,52
@@ -174,17 +174,17 @@ Timor-Leste,43,48
 Togo,51,40
 Tonga,61,63
 Trinidad and Tobago,84,90
-Tunisia,50.25,49.75
-Turkey,37.55555555555556,38.666666666666664
+Tunisia,49.75,50.25
+Turkey,73.11111111111111,72.0
 Turkmenistan,84,84
 Tuvalu,35,47
 Uganda,17,17
 Ukraine,85,85
-United Arab Emirates,37.55555555555556,38.666666666666664
+United Arab Emirates,73.11111111111111,72.0
 United Kingdom,0.0,0.0
 United Republic of Tanzania,26,24
 United States,0.0,0.0
-Uruguay,54.22222222222222,56.666666666666664
+Uruguay,68.22222222222223,73.11111111111111
 Uzbekistan,91,90
 Vanuatu,38,36
 Venezuela (Bolivarian Republic of),30,43

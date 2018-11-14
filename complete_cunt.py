@@ -20,7 +20,11 @@ for file in files:
 	rows = list(set(df[cols[0]].values))
 	countries_in_edu = countries_in_edu +rows
 countries_in_edu = (list(set(countries_in_edu)))
-print len(countries_in_edu)
+# for i in (countries_in_edu):
+# 	# if i[0]!='B':
+# 	print i
+
+
 
 regions['Europe'] = []
 df1 =  pd.read_csv("./UNSD-Methodology.csv", encoding = 'utf-8')
@@ -76,13 +80,14 @@ for file in files:
 	print len(df[cols[0]].values)
 	rows = list(set(df[cols[0]].values))
 	row2index = {}
-	for i,row in enumerate(rows):
+	for i,row in enumerate(df[cols[0]].values):
 		row2index[row]=i
 	miss_cunt = []
 	for cunt in countries_in_edu:
 		if cunt in rows:
 			if df.iloc[row2index[cunt],1]!=df.iloc[row2index[cunt],1] or df.iloc[row2index[cunt],1] == 0:
 				miss_cunt.append(cunt)
+				rows.remove(cunt)
 		else:
 			miss_cunt.append(cunt)
 	df_new = pd.DataFrame(columns=cols)
@@ -100,7 +105,7 @@ for file in files:
 				vec=vec/count
 			vec = [cunt] + [str(gg) for gg in vec]
 			df_new.loc[i] = vec
-	print len(df_new[cols[0]].values)
+	print len(list(set(df_new[cols[0]].values)))
 	df_new = df_new.sort_values(by=cols[0])
 	df_new = df_new.reset_index(drop=True)
 	df_new.to_csv("newdata/education3/"+file,encoding = 'utf-8',index=False)

@@ -1,19 +1,19 @@
 Country or Area,Ratio of school attendance of orphans to school attendance of non-orphans
 Afghanistan,88.0
 Albania,0.0
-Algeria,91.0
+Algeria,96.0
 Andorra,0.0
 Angola,85.0
-Antigua and Barbuda,101.5
+Antigua and Barbuda,92.0
 Argentina,0.0
-Armenia,88.0
-Australia,90.25
+Armenia,86.0
+Australia,89.0
 Austria,0.0
-Azerbaijan,88.0
-Bahamas,101.5
-Bahrain,88.0
+Azerbaijan,86.0
+Bahamas,92.0
+Bahrain,86.0
 Bangladesh,84.0
-Barbados,101.5
+Barbados,92.0
 Belarus,0.0
 Belgium,0.0
 Belize,66.0
@@ -23,7 +23,7 @@ Bolivia (Plurinational State of),0.0
 Bosnia and Herzegovina,0.0
 Botswana,95.0
 Brazil,0.0
-Brunei Darussalam,90.6
+Brunei Darussalam,86.0
 Bulgaria,0.0
 Burkina Faso,101.0
 Burundi,82.0
@@ -34,41 +34,41 @@ Cape Verde,100.0
 Central African Republic,89.0
 Chad,117.0
 Chile,0.0
-China,95.0
+China,102.0
 Colombia,0.0
 Comoros,88.0
 Congo,100.0
-Cook Islands,90.25
-Costa Rica,104.0
+Cook Islands,89.0
+Costa Rica,87.0
 Croatia,0.0
-Cuba,101.5
-Cyprus,88.0
+Cuba,92.0
+Cyprus,86.0
 Czech Republic,0.0
 Côte d'Ivoire,83.0
-Democratic People's Republic of Korea,95.0
+Democratic People's Republic of Korea,102.0
 Democratic Republic of the Congo,74.0
 Denmark,0.0
 Djibouti,88.0
-Dominica,101.5
+Dominica,92.0
 Dominican Republic,98.0
 Ecuador,0.0
-Egypt,91.0
-El Salvador,104.0
+Egypt,96.0
+El Salvador,87.0
 Equatorial Guinea,100.0
 Eritrea,88.0
 Estonia,0.0
 Ethiopia,90.0
-Fiji,90.25
+Fiji,89.0
 Finland,0.0
 France,0.0
 Gabon,100.0
 Gambia,103.0
-Georgia,88.0
+Georgia,86.0
 Germany,0.0
 Ghana,76.0
 Greece,0.0
-Grenada,101.5
-Guatemala,104.0
+Grenada,92.0
+Guatemala,87.0
 Guinea,88.0
 Guinea-Bissau,109.0
 Guyana,0.0
@@ -77,81 +77,81 @@ Honduras,108.0
 Hungary,0.0
 Iceland,0.0
 India,72.0
-Indonesia,90.6
+Indonesia,86.0
 Iran (Islamic Republic of),72.0
 Iraq,84.0
 Ireland,0.0
-Israel,88.0
+Israel,86.0
 Italy,0.0
-Jamaica,101.5
-Japan,95.0
-Jordan,88.0
+Jamaica,92.0
+Japan,102.0
+Jordan,86.0
 Kazakhstan,0.0
 Kenya,95.0
 Kiribati,88.0
-Kuwait,88.0
+Kuwait,86.0
 Kyrgyzstan,0.0
 Lao People's Democratic Republic,88.0
 Latvia,0.0
-Lebanon,88.0
+Lebanon,86.0
 Lesotho,98.0
 Liberia,85.0
-Libya,91.0
+Libya,96.0
 Liechtenstein,0.0
 Lithuania,0.0
 Luxembourg,0.0
 Madagascar,74.0
 Malawi,97.0
-Malaysia,90.6
+Malaysia,86.0
 Maldives,72.0
 Mali,92.0
 Malta,0.0
-Marshall Islands,90.25
+Marshall Islands,89.0
 Mauritania,66.0
 Mauritius,95.0
-Mexico,104.0
+Mexico,87.0
 Monaco,0.0
 Mongolia,102.0
 Montenegro,0.0
-Morocco,91.0
+Morocco,96.0
 Mozambique,83.0
 Myanmar,88.0
 Namibia,100.0
-Nauru,90.25
+Nauru,89.0
 Nepal,88.0
 Netherlands,0.0
-New Zealand,90.25
-Nicaragua,104.0
+New Zealand,89.0
+Nicaragua,87.0
 Niger,67.0
 Nigeria,117.0
 Norway,0.0
-Oman,88.0
+Oman,86.0
 Pakistan,72.0
-Panama,104.0
-Papua New Guinea,90.25
+Panama,87.0
+Papua New Guinea,89.0
 Paraguay,0.0
 Peru,0.0
-Philippines,90.6
+Philippines,86.0
 Poland,0.0
 Portugal,0.0
-Qatar,88.0
-Republic of Korea,95.0
+Qatar,86.0
+Republic of Korea,102.0
 Republic of Moldova,0.0
 Romania,0.0
 Russian Federation,0.0
 Rwanda,91.0
-Saint Kitts and Nevis,101.5
-Saint Lucia,101.5
-Saint Vincent and the Grenadines,101.5
-Samoa,90.25
+Saint Kitts and Nevis,92.0
+Saint Lucia,92.0
+Saint Vincent and the Grenadines,92.0
+Samoa,89.0
 San Marino,0.0
 Sao Tome and Principe,88.0
-Saudi Arabia,88.0
+Saudi Arabia,86.0
 Senegal,97.0
 Serbia,0.0
 Seychelles,95.0
 Sierra Leone,88.0
-Singapore,90.6
+Singapore,86.0
 Slovakia,0.0
 Slovenia,0.0
 Solomon Islands,88.0
@@ -160,27 +160,27 @@ South Africa,101.0
 South Sudan,78.0
 Spain,0.0
 Sri Lanka,72.0
-State of Palestine,88.0
+State of Palestine,86.0
 Sudan,96.0
 Suriname,0.0
 Swaziland,99.0
 Sweden,0.0
 Switzerland,0.0
-Syrian Arab Republic,88.0
+Syrian Arab Republic,86.0
 Tajikistan,0.0
 Thailand,93.0
 The former Yugoslav Republic of Macedonia,0.0
 Timor-Leste,75.0
 Togo,86.0
-Tonga,90.25
-Trinidad and Tobago,101.5
-Tunisia,91.0
-Turkey,88.0
+Tonga,89.0
+Trinidad and Tobago,92.0
+Tunisia,96.0
+Turkey,86.0
 Turkmenistan,0.0
 Tuvalu,88.0
 Uganda,88.0
 Ukraine,0.0
-United Arab Emirates,88.0
+United Arab Emirates,86.0
 United Kingdom,0.0
 United Republic of Tanzania,90.0
 United States,0.0
@@ -188,7 +188,7 @@ Uruguay,0.0
 Uzbekistan,0.0
 Vanuatu,92.0
 Venezuela (Bolivarian Republic of),0.0
-Viet Nam,90.6
+Viet Nam,86.0
 Yemen,88.0
 Zambia,92.0
 Zimbabwe,95.0

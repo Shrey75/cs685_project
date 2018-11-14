@@ -6,12 +6,12 @@ Andorra,96.0
 Angola,32.0
 Antigua and Barbuda,91.0
 Argentina,94.0
-Armenia,75.875
+Armenia,90.25
 Australia,95.0
 Austria,97.0
 Azerbaijan,96.0
 Bahamas,89.0
-Bahrain,75.875
+Bahrain,90.25
 Bangladesh,66.0
 Barbados,91.0
 Belarus,100.0
@@ -29,7 +29,7 @@ Burkina Faso,64.0
 Burundi,56.0
 Cambodia,56.0
 Cameroon,66.0
-Canada,94.0
+Canada,93.0
 Cape Verde,68.0
 Central African Republic,46.0
 Chad,28.0
@@ -42,7 +42,7 @@ Cook Islands,95.0
 Costa Rica,89.0
 Croatia,99.0
 Cuba,95.0
-Cyprus,75.875
+Cyprus,90.25
 Czech Republic,100.0
 Côte d'Ivoire,61.0
 Democratic People's Republic of Korea,95.0
@@ -52,7 +52,7 @@ Djibouti,64.0
 Dominica,88.0
 Dominican Republic,91.0
 Ecuador,91.0
-Egypt,81.75
+Egypt,84.25
 El Salvador,86.0
 Equatorial Guinea,62.0
 Eritrea,69.0
@@ -76,16 +76,16 @@ Haiti,91.0
 Honduras,91.0
 Hungary,98.0
 Iceland,96.0
-India,85.5
+India,70.83333333333333
 Indonesia,95.0
 Iran (Islamic Republic of),94.0
-Iraq,75.875
+Iraq,90.25
 Ireland,96.0
 Israel,99.0
 Italy,100.0
 Jamaica,95.0
 Japan,100.0
-Jordan,75.875
+Jordan,90.25
 Kazakhstan,100.0
 Kenya,60.0
 Kiribati,56.0
@@ -96,14 +96,14 @@ Latvia,95.0
 Lebanon,92.0
 Lesotho,69.0
 Liberia,68.0
-Libya,81.75
+Libya,84.25
 Liechtenstein,79.0
 Lithuania,98.0
 Luxembourg,96.0
 Madagascar,35.0
 Malawi,53.0
 Malaysia,98.0
-Maldives,85.5
+Maldives,70.83333333333333
 Mali,75.0
 Malta,80.0
 Marshall Islands,83.0
@@ -125,7 +125,7 @@ Nicaragua,91.0
 Niger,69.0
 Nigeria,80.0
 Norway,99.0
-Oman,75.875
+Oman,90.25
 Pakistan,62.0
 Panama,94.0
 Papua New Guinea,95.0
@@ -134,7 +134,7 @@ Peru,90.0
 Philippines,76.0
 Poland,98.0
 Portugal,96.0
-Qatar,75.875
+Qatar,90.25
 Republic of Korea,99.0
 Republic of Moldova,95.0
 Romania,97.0
@@ -146,7 +146,7 @@ Saint Vincent and the Grenadines,91.0
 Samoa,95.0
 San Marino,96.0
 Sao Tome and Principe,68.0
-Saudi Arabia,75.875
+Saudi Arabia,90.25
 Senegal,60.0
 Serbia,99.0
 Seychelles,60.0
@@ -159,8 +159,8 @@ Somalia,60.0
 South Africa,60.0
 South Sudan,60.0
 Spain,99.0
-Sri Lanka,85.5
-State of Palestine,75.875
+Sri Lanka,70.83333333333333
+State of Palestine,90.25
 Sudan,56.0
 Suriname,90.0
 Swaziland,84.0
@@ -180,7 +180,7 @@ Turkmenistan,96.0
 Tuvalu,56.0
 Uganda,32.0
 Ukraine,98.0
-United Arab Emirates,75.875
+United Arab Emirates,90.25
 United Kingdom,96.0
 United Republic of Tanzania,81.0
 United States,93.0

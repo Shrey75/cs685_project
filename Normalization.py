@@ -7,7 +7,7 @@ import numpy as np
 from sklearn import preprocessing
 
 def function():
-	path = "./Final_Education.csv"
+	path = "./health.csv"
 	df = pd.read_csv(path)
 	columns = df.columns.values
 	columns = columns[1:]	
@@ -19,7 +19,7 @@ def function():
 		maximum = max(feature_list)
 		df[column] = (df[column]-minimum)/(maximum-minimum)
 	print df
-	store_path = "./Final_Education_Normalization.csv"
+	store_path = "./health_Normalization.csv"
 	df.to_csv(store_path, index=False)
 
 if __name__ == '__main__':
