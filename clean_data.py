@@ -76,6 +76,7 @@ for file in files:
 	print file
 	df = pd.read_csv("newdata/education/"+file,encoding = 'utf-8')
 	cols = df.columns.values
+	print cols[1:]
 	rows = list(set(df[cols[0]].values))
 	cunt = [i for i in rows if i in countries]
 	rgns = [i for i in rows if i in regions.keys()]

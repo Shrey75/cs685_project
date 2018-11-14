@@ -9,6 +9,9 @@ def function():
 	df_new = pd.DataFrame()
 	path = "./newdata/education3/"
 	for i, file in enumerate(os.listdir(path)):
+		if file=='.DS_Store':
+			continue
+		print file
 		path1 = path + file
 		df = pd.read_csv(path1)
 		if i==0:

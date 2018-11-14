@@ -104,5 +104,3 @@ for file in files:
 	df_new = df_new.sort_values(by=cols[0])
 	df_new = df_new.reset_index(drop=True)
 	df_new.to_csv("newdata/education3/"+file,encoding = 'utf-8',index=False)
-
-
