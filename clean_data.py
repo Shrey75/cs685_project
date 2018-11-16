@@ -20,7 +20,7 @@ countries_in_edu = list(set(countries_in_edu))
 
 
 countries = []
-cunt2id = {}
+country_name2id = {}
 regions = {}
 regions['Least Developed Countries (LDC)'] = []
 regions['Pacific'] = []
@@ -45,7 +45,7 @@ for j,i in enumerate(df1[cols[3]].values):
 	if i not in countries_in_edu:
 		continue
 	countries.append(i)
-	cunt2id[i]=j
+	country_name2id[i]=j
 	if df1.iloc[j,1] not in regions:
 		regions[df1.iloc[j,1]] = [i]
 	else:
@@ -78,17 +78,17 @@ for file in files:
 	cols = df.columns.values
 	print cols[1:]
 	rows = list(set(df[cols[0]].values))
-	cunt = [i for i in rows if i in countries]
+	country_name = [i for i in rows if i in countries]
 	rgns = [i for i in rows if i in regions.keys()]
-	chut = [i for i in rows if i not in rgns and i not in cunt]
+	lissst = [i for i in rows if i not in rgns and i not in country_name]
 	print len(df.index.values)
 	for region in rgns:
 		region_arr = df.loc[df["Country or Area"]==region].values
 		region_arr = region_arr[0][1:]
 		for value in regions[region]:
-			if value in cunt:
+			if value in country_name:
 				continue
-			cunt.append(value)
+			country_name.append(value)
 			new_Ar = [value]
 			for v in region_arr:
 				new_Ar.append(v)

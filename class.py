@@ -12,6 +12,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from math import log
 from sklearn.model_selection import KFold
 from xgboost import XGBClassifier
+from sklearn import tree as vz 
 from sklearn.model_selection import train_test_split
 
 
@@ -55,8 +56,9 @@ training_data, validation, training_data_y, validation_y = train_test_split(X,Y,
 training_data_x = [ i[:-1]for i in training_data]
 validation_x = [ i[:-1]for i in validation]
 faltu = [ i[-1]for i in validation]
-clf = BaggingClassifier(tree.DecisionTreeClassifier(),max_samples=0.8)
+clf = tree.DecisionTreeClassifier()
 clf = clf.fit(training_data_x, training_data_y)
+vz.export_graphviz(clf,out_file='pdd.dot',feature_names=df.columns.values[1:])
 
 
 def func(a):

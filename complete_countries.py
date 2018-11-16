@@ -10,7 +10,7 @@ files = os.listdir("newdata/education")
 countries = []
 regions = {}
 regions['Pacific'] = []
-cunt2region ={}
+country_name2region ={}
 countries_in_edu = []
 for file in files:
 	if file == '.DS_Store':
@@ -70,7 +70,7 @@ del regions['Australia and New Zealand']
 for i in regions:
 	lis = regions[i]
 	for j in lis:
-		cunt2region[j]=i
+		country_name2region[j]=i
 for file in files:
 	if file == '.DS_Store':
 		continue
@@ -82,28 +82,28 @@ for file in files:
 	row2index = {}
 	for i,row in enumerate(df[cols[0]].values):
 		row2index[row]=i
-	miss_cunt = []
-	for cunt in countries_in_edu:
-		if cunt in rows:
-			if df.iloc[row2index[cunt],1]!=df.iloc[row2index[cunt],1] or df.iloc[row2index[cunt],1] == 0:
-				miss_cunt.append(cunt)
-				rows.remove(cunt)
+	miss_country_name = []
+	for country_name in countries_in_edu:
+		if country_name in rows:
+			if df.iloc[row2index[country_name],1]!=df.iloc[row2index[country_name],1] or df.iloc[row2index[country_name],1] == 0:
+				miss_country_name.append(country_name)
+				rows.remove(country_name)
 		else:
-			miss_cunt.append(cunt)
+			miss_country_name.append(country_name)
 	df_new = pd.DataFrame(columns=cols)
-	for i,cunt in enumerate(countries_in_edu):
-		if cunt not in miss_cunt:
-			df_new.loc[i] = df.iloc[row2index[cunt]].values
+	for i,country_name in enumerate(countries_in_edu):
+		if country_name not in miss_country_name:
+			df_new.loc[i] = df.iloc[row2index[country_name]].values
 		else:
 			vec = np.zeros(len(df.iloc[0].values[1:]))
 			count = 0
-			for jj in regions[cunt2region[cunt]]:
-				if jj not in miss_cunt:
+			for jj in regions[country_name2region[country_name]]:
+				if jj not in miss_country_name:
 					vec +=[ float(k) for k in df.iloc[row2index[jj]].values[1:]]
 					count +=1
 			if count!=0:
 				vec=vec/count
-			vec = [cunt] + [str(gg) for gg in vec]
+			vec = [country_name] + [str(gg) for gg in vec]
 			df_new.loc[i] = vec
 	print len(list(set(df_new[cols[0]].values)))
 	df_new = df_new.sort_values(by=cols[0])
