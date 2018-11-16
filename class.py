@@ -16,9 +16,13 @@ from sklearn.model_selection import train_test_split
 
 
 
-df = pd.read_csv('merge.csv', encoding = 'utf-8')
+df = pd.read_csv('merge_wn_missing.csv', encoding = 'utf-8')
 countries_in_edu = df[df.columns.values[0]].values
-X = df[df.columns.values[1:]].values
+X = list(df[df.columns.values[1:]].values)
+print len(X[0])
+for j,i in enumerate(X):
+	X[j] = list(X[j])
+	X[j].append(j)
 Y = []
 dic ={}
 df1 =  pd.read_csv("./UNSD-Methodology.csv", encoding = 'utf-8')
@@ -47,12 +51,18 @@ for i in countries_in_edu:
 	Y.append(dic[i])
 
 test_size=0.3
-training_data_x, validation_x, training_data_y, validation_y = train_test_split(X,Y, test_size=test_size, random_state=7)
-
+training_data, validation, training_data_y, validation_y = train_test_split(X,Y, test_size=test_size, random_state=7)
+training_data_x = [ i[:-1]for i in training_data]
+validation_x = [ i[:-1]for i in validation]
+faltu = [ i[-1]for i in validation]
 clf = BaggingClassifier(tree.DecisionTreeClassifier(),max_samples=0.8)
 clf = clf.fit(training_data_x, training_data_y)
 
 
+def func(a):
+	if a ==0:
+		return 'Developed'
+	return'Developing'
 
 
 count = 0
@@ -62,6 +72,7 @@ for i in xrange(len(validation_x)):
 	if an==validation_y[i]:
 		correct+=1
 	count+=1
-print correct*100/count
+	print df.iloc[faltu[i],0]+  '    &   '+  func(validation_y[i])+'  &  '+func(an) +'  \\\\ \\hline'
+# print correct*100/count
 
 	

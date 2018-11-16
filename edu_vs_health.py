@@ -9,6 +9,7 @@ import pickle as pkl
 from sklearn.linear_model import LinearRegression
 from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import mean_squared_error, r2_score
+import re
 
 df = pd.read_csv("./Final_Education_Normalization.csv")
 cols = df.columns.values
@@ -23,8 +24,11 @@ X = df[cols[1:]].values
 # 		feature_arr_female.append(columns[i])
 
 
-df = pd.read_csv("health_Normalization.csv")
-features = df.columns.values[1:]
+df = pd.read_csv("health.csv")
+features = list(df.columns.values[1:])
+for i in features:
+	if re.search('19',i) or re.search('_19',i):
+		features.remove(i)
 
 for i in features:
 	Y = df[i].values
@@ -37,6 +41,6 @@ for i in features:
 	# print len(feature_arr_male)
 	predications = model.predict(X)
 	# print literacy_male_predications, y_test1
-	if r2_score(Y,predications)>0.80:
-		print i,r2_score(Y,predications)
+	if r2_score(Y,predications)>0.75:
+		print i+'  &  '+str(round(r2_score(Y,predications),3))+'   \\\\ \\hline'
 
